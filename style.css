@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #b23f08;
+}
+
+main {
+  height: auto;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 50px;
+  width: 996px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--main-color);
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-banner {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header div {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .main-text {
+
+} */
+
+.main-text h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-image: url("https://t4.ftcdn.net/jpg/06/10/30/27/360_F_610302731_aIAEpN4FT5Qe5WaCoNZj4JqGnR5cptnf.jpg");
+  background-position: 5% 50%;
+  background-repeat: no-repeat;
+}
+
+.top-product {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: teal;
+}
+
+.top-product div {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product {
+  margin: 40px;
+  height: 50vh;
+  width: 23%;
+  background-color: yellow;
+}
+
+.about-us {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-us > * {
+  height: 70%;
+  width: 40%;
+}
+
+.about-us div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us img {
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* footer */
+
+footer {
+  height: 140px;
+  width: 996px;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.footer-columns {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-footer {
+  height: 120px;
+  width: 120px;
+}
+.logo-footer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links,
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signup input {
+  background-color: lightgray;
+  border: none;
+}
+
+button {
+  padding: 3px;
+  border-radius: 10%;
+  background: yellow;
+  border: none;
+  color: #000;
+}
+
+/* about us section */
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact form {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid var(--main-color);
+}
+
+.contact form label {
+  margin-left: 50px;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.submit {
+  width: 50% !important;
+  background-color: yellow !important;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.contact form input {
+  width: 90%;
+  height: 10vh;
+  background-color: lightgray;
+  border: none;
+}
+
+.contact form input::placeholder {
+  color: darkgray;
+  padding-left: 25px;
+}
+
+.contact-details {
+  margin-left: 50px;
+  width: 30%;
+  height: 90%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
